@@ -32,7 +32,7 @@ function Section2() {
 }
 
 function Post({ data }) {
-    const { id, title, category, img, published, author } = data;
+    const { title, category, img, published, author } = data;
     return (
         <div className="item" >
             <div className="images">
