@@ -6,6 +6,7 @@ import Spinner from "./_child/spinner";
 import Error from "./_child/error";
 import {SwiperSlide} from "swiper/react";
 
+/// The component function for the fourth section of the site / homepage.
 function Section4(){
     const {data, isLoading, isError} = fetcher('api/popular');
 

@@ -7,6 +7,7 @@ import fetcher from "../lib/fetcher";
 import Spinner from "./_child/spinner";
 import Error from "./_child/error";
 
+/// Component Function for Section 3 of the site.
 function Section3() {
     const {data, isLoading, isError} = fetcher('api/popular');
 

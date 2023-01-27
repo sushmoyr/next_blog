@@ -5,6 +5,7 @@ import Image from "next/image";
 import Related from "../../components/_child/related";
 import getPost from "../../lib/helper";
 
+/// This shows a single post based on the given id. It is a dynamic page.
 function PostId({ title, img, subtitle, description, author }) {
     return (
         <Format>
